@@ -8,7 +8,45 @@ const QUICK_LINKS = [
 
 const META_ICONS = [Clock, MapPin]
 
-export default function Contact({ content }) {
+const CONTACT_CONTENT = {
+  en: {
+    badge: 'Open for new collaborations',
+    title: "Let's turn ideas into joyful launches",
+    description: "Tell me about your world, products, platforms, experiments. I'll bring the strategy, engineering craft, and a dose of playfulness to match.",
+    startConversation: 'Start a conversation',
+    resumeDownload: 'Download resume',
+    quickLinksTitle: 'Quick links',
+    detailsTitle: 'Details',
+    quickLinks: {
+      email: 'Email',
+      linkedin: 'LinkedIn',
+      github: 'GitHub',
+    },
+    meta: ['Replies within 24 hours', 'Based in Paris, FR (CET)'],
+    note: "Let's grab a virtual coffee, or meet in Paris if you're nearby.",
+    footer: 'Crafted with joy & curiosity.',
+  },
+  fr: {
+    badge: 'Ouverte a de nouvelles collaborations',
+    title: 'Transformons des idees en lancements memorables',
+    description: "Parlez-moi de votre univers, de vos produits ou de vos experiments. J'apporte la strategie, la rigueur technique et une touche de creativite.",
+    startConversation: 'Demarrer une conversation',
+    resumeDownload: 'Telecharger le CV',
+    quickLinksTitle: 'Liens rapides',
+    detailsTitle: 'Details',
+    quickLinks: {
+      email: 'Email',
+      linkedin: 'LinkedIn',
+      github: 'GitHub',
+    },
+    meta: ['Reponse sous 24 heures', 'Basee a Paris, FR (CET)'],
+    note: 'Partageons un cafe virtuel, ou rencontrons-nous a Paris si vous etes proche.',
+    footer: 'Concu avec joie et curiosite.',
+  }
+}
+
+export default function Contact({ language }) {
+  const content = CONTACT_CONTENT[language] || CONTACT_CONTENT.en;
   const year = new Date().getFullYear()
 
   return (

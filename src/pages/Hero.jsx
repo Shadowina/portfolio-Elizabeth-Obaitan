@@ -6,7 +6,35 @@ const SOCIALS = [
   { icon: Mail, label: 'Email', href: 'mailto:obaitanshazam@gmail.com' },
 ]
 
-export default function Hero({ content }) {
+const HERO_CONTENT = {
+  en: {
+    badge: 'Full-stack & AI Engineer',
+    title: 'A whole new world of possibilities',
+    intro: "Hi, I'm Elizabeth, a Software Engineering and Digital Transformation master’s student from Esigelec College of Engineering in France. I build things that work, vibe, and spark curiosity.",
+    stats: [
+      { value: '2+ years', label: 'crafting interfaces' },
+      { value: '9 launches', label: 'shipped with care' },
+      { value: 'Paris, FR', label: 'Available remotely and in-person' },
+    ],
+    primaryCta: 'Explore my work',
+    secondaryCta: "Let's collaborate",
+  },
+  fr: {
+    badge: 'Developpeuse full-stack et backend',
+    title: 'Construire des experiences numeriques vivantes',
+    intro: "Bonjour, moi c'est Elizabeth. Je cree des produits utiles, harmonieux et stimulants. Je soigne chaque detail pour que l'utilisateur profite simplement de l'experience.",
+    stats: [
+      { value: '2+ ans', label: "de creation d'interfaces" },
+      { value: '9 lancements', label: 'livres avec soin' },
+      { value: 'Paris, FR', label: 'Disponible a distance' },
+    ],
+    primaryCta: 'Voir mes projets',
+    secondaryCta: 'Collaborons ensemble',
+  }
+}
+
+export default function Hero({ language }) {
+  const content = HERO_CONTENT[language] || HERO_CONTENT.en;
   return (
     <section id="home" className="hero section-orbs">
       <div className="section-orbs__spark" />
