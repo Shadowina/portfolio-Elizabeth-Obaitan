@@ -9,6 +9,12 @@ const PROJECTS_CONTENT = {
     viewProject: 'View project',
     list: [
       {
+        title: 'PureBreeze',
+        description: 'A booking platform for cleaning services, allowing users to book, manage, and review cleaning services.',
+        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn/UI', 'Firebase'],
+        link: 'https://pure-breeze-beta.vercel.app/',
+      },
+      {
         title: 'Promptify',
         description: 'Music assistant where users input prompts by vibe/mood to generate playlists, with save-to-Spotify integration.',
         tech: ['Streamlit', 'Gemini API', 'Spotify API', 'Python', 'RAG'],
