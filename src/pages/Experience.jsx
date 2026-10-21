@@ -9,7 +9,7 @@ const EXPERIENCE_CONTENT = {
       {
         title: 'Full-Stack Intern',
         org: 'International Association of Universities (IAU)',
-        period: '2026 - Present',
+        period: 'Nov 2025 - July 2026',
         location: 'Paris, FR ',
         highlights: [
           'Developed a data inbound application for the IAU to manage data inflow from various sources',
@@ -17,6 +17,16 @@ const EXPERIENCE_CONTENT = {
           'Engineered end-to-end features for the data ingestion platform, and integrated Redis with Celery for broker + result storage in a containerized dev/prod topology.',
         ],
       },
+      {
+        title: 'Software Engineer',
+        org: 'RetireNG',
+        period: 'July 2026 - Present',
+        location: 'Remote',
+        highlights: [
+          'Developed and shipped 20+ production screens, including the entire user onboarding flow, using React Hook Form and Zod for robust form validation.',
+          'Implemented secure API integrations between frontend and backend services, using HttpOnly cookies for token storage to protect against XSS-based token theft and ensure secure session handling.',
+        ],
+      }
     ],
   },
   fr: {
@@ -33,6 +43,16 @@ const EXPERIENCE_CONTENT = {
           'Développé une application d’ingestion de données pour l’IAU afin de gérer les flux de données provenant de diverses sources',
           'Conçu et développé des fonctionnalités full-stack utilisant React/TypeScript (frontend) et FastAPI (backend), livrant des modules web internes qui réduisent les workflows de traitement de données manuel par 40%, libérant le temps des collaborateurs pour des tâches plus valorisantes.',
           'Conçu des fonctionnalités de bout en bout pour la plateforme d’ingestion de données et intégré Redis avec Celery pour la gestion du broker et du stockage des résultats dans une architecture conteneurisée de développement et de production.',
+        ],
+      },
+      {
+        title: 'Ingenieure logicielle',
+        org: 'RetireNG',
+        period: 'Aujourd hui',
+        location: 'À distance',
+        highlights: [
+          'Développé et expédié plus de 20 écrans de production, y compris l’ensemble du flux d’intégration utilisateur, en utilisant React Hook Form et Zod pour une validation de formulaire robuste.',
+          'Mis en œuvre des intégrations d’API sécurisées entre les services frontend et backend, en utilisant des cookies HttpOnly pour le stockage des jetons afin de se protéger contre le vol de jetons basé sur XSS et d’assurer une gestion sécurisée des sessions.',
         ],
       }
     ],

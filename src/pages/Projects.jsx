@@ -9,16 +9,10 @@ const PROJECTS_CONTENT = {
     viewProject: 'View project',
     list: [
       {
-        title: 'PureBreeze',
-        description: 'A booking platform for cleaning services, allowing users to book, manage, and review cleaning services.',
-        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn/UI', 'Firebase'],
-        link: 'https://pure-breeze-beta.vercel.app/',
-      },
-      {
         title: 'Promptify',
         description: 'Music assistant where users input prompts by vibe/mood to generate playlists, with save-to-Spotify integration.',
-        tech: ['Streamlit', 'Gemini API', 'Spotify API', 'Python', 'RAG'],
-        link: '#',
+        tech: ['Streamlit', 'Gemini API', 'Spotify API', 'Python', 'RAG', 'FAISS'],
+        link: 'https://promptify-z.streamlit.app/',
       },
       {
         title: 'Aurea',
@@ -31,6 +25,12 @@ const PROJECTS_CONTENT = {
         description: 'Online library management system using HTML, CSS, PHP, Bootstrap, and MariaDB.',
         tech: ['PHP', 'HTML/CSS', 'Bootstrap', 'MariaDB'],
         link: 'https://github.com/Shadowina/Book-Haven',
+      },
+      {
+        title: 'PureBreeze',
+        description: 'A booking platform for cleaning services, allowing users to book, manage, and review cleaning services.',
+        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn/UI', 'Firebase'],
+        link: 'https://pure-breeze-beta.vercel.app/',
       },
       {
         title: 'EzzyTickets',
@@ -50,8 +50,8 @@ const PROJECTS_CONTENT = {
       {
         title: 'Promptify',
         description: "Assistant musical ou les utilisateurs decrivent une ambiance pour generer des playlists, avec integration d'enregistrement sur Spotify.",
-        tech: ['Streamlit', 'Gemini API', 'Spotify API', 'Python', 'RAG'],
-        link: '#',
+        tech: ['Streamlit', 'Gemini API', 'Spotify API', 'Python', 'RAG', 'FAISS'],
+        link: 'https://promptify-z.streamlit.app/',
       },
       {
         title: 'Aurea',
@@ -64,6 +64,12 @@ const PROJECTS_CONTENT = {
         description: 'Systeme de gestion de bibliotheque en ligne avec HTML, CSS, PHP, Bootstrap et MariaDB.',
         tech: ['PHP', 'HTML/CSS', 'Bootstrap', 'MariaDB'],
         link: 'https://github.com/Shadowina/Book-Haven',
+      },
+      {
+        title: 'PureBreeze',
+        description: 'Une plateforme de réservation de services de nettoyage, permettant aux utilisateurs de réserver, de gérer et d’évaluer des prestations de nettoyage.',
+        tech: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn/UI', 'Firebase'],
+        link: 'https://pure-breeze-beta.vercel.app/',
       },
       {
         title: 'EzzyTickets',
